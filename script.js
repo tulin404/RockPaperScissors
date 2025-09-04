@@ -1,3 +1,5 @@
+
+
 function getComputerChoice() {
     // Gets a number (0, 1 or 2)
     let computerChoice = () => Math.floor(Math.random() * 3)
@@ -59,6 +61,7 @@ function playGame() {
         }
     };
 
+    // Loop to play 5 rounds
     for (i = 0; i < 5; i++) {
         const humanSelection = getHumanChoice()
         const computerSelection = getComputerChoice()

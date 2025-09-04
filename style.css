@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #173753;
+    color: aliceblue;
+}
+
+div {
+    /* border: 1px solid blue; */
+    display: flex;
+}
+
+.title {
+    justify-content: center;
+    width: 80%;
+    font-size: 42px;
+    margin-bottom: 36px;
+}
+
+.title h2 {
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.big-container {
+    height: 40%;
+    width: 80%;
+}
+
+.choice-container {
+    flex: 2;
+    flex-direction: column;
+}
+
+.versus-container {
+    flex-direction: column;
+    flex: 1.5;
+}
+
+.img-container {
+    height: 70%;
+}
+
+.text-switch {
+    height: 30%;
+}
+
+.text,
+#computer-text {
+    font-family: "Roboto Condensed";
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.text p {
+    font-family: "Roboto Condensed";
+}
+
+.text {
+    flex: 2;
+}
+
+.switch-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.8;
+}
+
+.switch-btn-container button {
+    font-size: 32px;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 50%;
+    background-color: #6DAEDB;
+}
+
+.img-container {
+    align-items: center;
+    justify-content: center;
+}
+
+#computer {
+    height: 220px;
+}
+
+#x {
+    height: 96px;
+}
+
+.btn-container {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 36px;
+}
+
+.btn-container button {
+    padding: 24px 0;
+    flex: 0.6;
+    border-radius: 48px;
+    font-size: 36px;
+    color: white;
+    background-color: #1D84B5;
+}
