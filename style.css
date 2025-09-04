@@ -65,10 +65,6 @@ div {
     font-size: 36px;
 }
 
-.text p {
-    font-family: "Roboto Condensed";
-}
-
 .text {
     flex: 2;
 }

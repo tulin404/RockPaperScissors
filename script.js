@@ -1,4 +1,8 @@
-
+const images = [
+    "img/rock.png",
+    "img/paper.png",
+    "img/scissors.png"
+]
 
 function getComputerChoice() {
     // Gets a number (0, 1 or 2)
@@ -15,7 +19,8 @@ function getComputerChoice() {
 
 function getHumanChoice() {
     // Gets the user's choice
-    let humanChoice = prompt("What you choose?")
+    let humanChoice = document.getElementById("choice").innerText
+    console.log(humanChoice)
     // Adjust and returns the user choices
     if (humanChoice.toLowerCase() === "rock") {
         return ("rock")
