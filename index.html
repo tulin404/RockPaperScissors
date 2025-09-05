@@ -13,10 +13,14 @@
     <div class="title">
         <h2>Rock Paper Scissors Game</h2>
     </div>
+    <div class="score-container">
+        <div class="score" id="human-score">0</div>
+        <div class="score" id="computer-score">0</div>
+    </div>
     <div class="big-container">
         <div class="choice-container">
             <div class="img-container">
-                <img src="img/rock.png" alt="Choice">
+                <img src="img/rock.png" id="img" alt="Choice">
             </div>
             <div class="text-switch">
                 <div class="switch-btn-container">
@@ -48,7 +52,7 @@
     </div>
 
     <div class="btn-container">
-        <button>Play!</button>
+        <button id="play-btn">Play!</button>
     </div>
 
     <script src="script.js"></script>
